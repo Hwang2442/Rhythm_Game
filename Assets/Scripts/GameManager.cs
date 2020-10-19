@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
     public bool isFinishLoad = false;
 
     public float speed = 10.0f;
+    float beatPerBar = 32.0f;
+    int timeRateBySpeed = 2;
+
+    GameObject note;
+    NoteObj m_note;
 
     Bms bms;
 
@@ -29,11 +34,144 @@ public class GameManager : MonoBehaviour
         bms.debug();
 
         // 시작선
+        GameObject planeTop = GameObject.Find("Plane_Top");
+        float startPositionY = planeTop.transform.position.y;
 
         // 판정선
+        GameObject lineJudgeMent = GameObject.Find("LineJudgeMent");
+        float judgeMentPositionY = lineJudgeMent.transform.position.y;
 
         // 노트 프리팹 생성, 리스트 저장
-        
+        float destroyDelayPositionY = 30.0f;
+
+        // 노트 간격 비율
+        float noteWidthRate = 1.8f;
+
+        // 노트 프리팹 생성 및 리스트 저장
+        List<NoteObj> noteLine1 = new List<NoteObj>();
+        List<NoteObj> noteLine2 = new List<NoteObj>();
+        List<NoteObj> noteLine3 = new List<NoteObj>();
+        List<NoteObj> noteLine4 = new List<NoteObj>();
+        List<NoteObj> noteLine5 = new List<NoteObj>();
+        List<NoteObj> barLine = new List<NoteObj>();
+
+        bool isLongNoteStart_1 = true;
+        bool isLongNoteStart_2 = true;
+        bool isLongNoteStart_3 = true;
+        bool isLongNoteStart_4 = true;
+        bool isLongNoteStart_5 = true;
+
+        float preNoteTime_Ln1 = 0f;
+        float preNoteTime_Ln2 = 0f;
+        float preNoteTime_Ln3 = 0f;
+        float preNoteTime_Ln4 = 0f;
+        float preNoteTime_Ln5 = 0f;
+
+        // 노트 소멸 딜레이 타임
+        float destroyDelayTime = bms.TotalPlayTime + 1;
+
+        // 바 생성
+        float secondPerBar = 60.0f / bms.Bpm * 4.0f;
+        int barCount = 0;
+
+        // Bar 생성
+        for (int i = 0; i < bms.TotalBarCount; i++)
+        {
+            // 바 라인 생성
+            float barTime = barCount * secondPerBar;    // 바 시작시간
+            note = (GameObject)Instantiate(barPrefab, new Vector3(0, startPositionY, 0), Quaternion.identity);
+
+            m_note = note.GetComponent<NoteObj>();
+            m_note.speed = speed;
+            m_note.destroyPositionY = judgeMentPositionY - destroyDelayPositionY;
+            m_note.destroyDelayTime = destroyDelayTime;
+            m_note.noteTime = barTime;
+            barLine.Add(m_note);
+            barCount++;
+        }
+
+        // 노트 생성
+        foreach (BarData barData in bms.BarDataList)
+        {
+            float linePositionX = 0;
+            bool isLongChannel = false;
+
+            int channel = barData.Channel;
+
+            if (channel == 11 || channel == 51)
+            {
+                linePositionX -= 2;
+            }
+            else if (channel == 12 || channel == 52)
+            {
+                linePositionX -= 1;
+            }
+            else if (channel == 13 || channel == 53)
+            {
+                linePositionX = linePositionX;
+            }
+            else if (channel == 14 || channel == 54)
+            {
+                linePositionX += 1;
+            }
+            else if (channel == 15 || channel == 55)
+            {
+                linePositionX += 2;
+            }
+
+            if (channel == 51 || channel == 52 || channel == 53 || channel == 54 || channel == 55)
+            {
+                isLongChannel = true;
+            }
+
+            foreach (Dictionary<int, float> noteData in barData.NoteDataList)
+            {
+                foreach (int key in noteData.Keys)
+                {
+                    // 숏노트
+                    if (!isLongChannel && key != 0 && channel != 16)
+                    {
+                        float noteTime = noteData[key];
+
+                        note = (GameObject)Instantiate(notePrefab, new Vector3(linePositionX * noteWidthRate, startPositionY, 0), Quaternion.identity);
+                        m_note = note.GetComponent<NoteObj>();
+                        m_note.speed = speed;
+                        m_note.destroyPositionY = judgeMentPositionY - destroyDelayPositionY;
+                        m_note.destroyDelayTime = destroyDelayTime;
+                        m_note.noteTime = noteTime;
+                        m_note.channel = channel;
+
+                        if(channel==11)
+                        {
+                            noteLine1.Add(m_note);
+                        }
+                        else if (channel == 12)
+                        {
+                            noteLine2.Add(m_note);
+                        }
+                        else if (channel == 13)
+                        {
+                            noteLine3.Add(m_note);
+                        }
+                        else if (channel == 14)
+                        {
+                            noteLine4.Add(m_note);
+                        }
+                        else if (channel == 15)
+                        {
+                            noteLine5.Add(m_note);
+                        }
+                    }
+
+                    // 롱노트
+                    if (isLongChannel && key != 0)
+                    {
+                        float secondPerBeat = 60.0f / bms.Bpm * 4.0f / beatPerBar;
+
+                    }
+                }
+            }
+        }
     }
 
     // Update is called once per frame
@@ -94,7 +232,8 @@ public class GameManager : MonoBehaviour
 
                     string noteString = splitText.First().Trim().Substring(7);
 
-                    barData = gameObject.AddComponent<BarData>();
+                    //barData = gameObject.AddComponent<BarData>();
+                    barData = GetComponent<BarData>();
                     barData.Bar = bar;
                     barData.Channel = channel;
                     barData.NoteDataList = getNoteData(noteString, bar, bms.Bpm);
