@@ -167,7 +167,22 @@ public class GameManager : MonoBehaviour
                     if (isLongChannel && key != 0)
                     {
                         float secondPerBeat = 60.0f / bms.Bpm * 4.0f / beatPerBar;
+                        float longHeightRate = 0.0f;
 
+                        bool isLongNoteStart = false;
+
+                        if (channel == 51)
+                        {
+                            isLongNoteStart = isLongNoteStart_1;
+                        }
+                        else if (channel == 52)
+                        {
+                            isLongNoteStart = isLongNoteStart_2;
+                        }
+                        else if (channel == 53)
+                        {
+
+                        }
                     }
                 }
             }
