@@ -15,10 +15,10 @@ MonoBehaviour:
   mMat: {fileID: 2100000, guid: e76d0bdab6849b94aa507497bbb96687, type: 2}
   mUVRect:
     serializedVersion: 2
-    x: 0.5
-    y: 0.5
-    width: 0.5
-    height: 0.5
+    x: 0.5974121
+    y: 0.91674805
+    width: 0.0625
+    height: 0.0625
   mFont:
     mSize: 20
     mBase: 15

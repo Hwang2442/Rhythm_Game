@@ -14,22 +14,256 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: e76d0bdab6849b94aa507497bbb96687, type: 2}
   mSprites:
-  - name: Dark
-    x: 1
-    y: 476
-    width: 15
-    height: 15
-    borderLeft: 4
-    borderRight: 4
-    borderTop: 4
-    borderBottom: 4
+  - name: Arimo14
+    x: 2705
+    y: 1675
+    width: 126
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Arimo18
+    x: 3333
+    y: 383
+    width: 254
+    height: 93
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 34
+  - name: Arimo20
+    x: 1521
+    y: 1534
+    width: 255
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 140
+  - name: arrow
+    x: 2552
+    y: 1057
+    width: 130
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: arrow2
+    x: 2603
+    y: 1802
+    width: 130
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow3
+    x: 2683
+    y: 1115
+    width: 188
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow4
+    x: 2806
+    y: 984
+    width: 188
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow5
+    x: 2538
+    y: 1367
+    width: 251
+    height: 120
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 1
+  - name: arrow6
+    x: 2452
+    y: 652
+    width: 251
+    height: 120
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 7
+    paddingBottom: 1
+  - name: Atlas
+    x: 0
+    y: 2164
+    width: 1986
+    height: 1932
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 52
+    paddingTop: 10
+    paddingBottom: 106
+  - name: Backdrop
+    x: 1521
+    y: 1221
+    width: 512
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_bar
+    x: 501
+    y: 10
+    width: 1015
+    height: 115
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_scroll_bar
+    x: 1539
+    y: 132
+    width: 500
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 0
+  - name: background_scroll_bar_vert
+    x: 2541
+    y: 1490
+    width: 61
+    height: 500
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 5
+  - name: brick
+    x: 1795
+    y: 1478
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: brickNM
+    x: 769
+    y: 1651
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bronze_medal
+    x: 2790
+    y: 1367
+    width: 98
+    height: 100
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: burlap
+    x: 2734
+    y: 1885
+    width: 105
+    height: 105
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button
+    x: 1537
+    y: 1003
+    width: 511
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 26
+    paddingBottom: 13
   - name: Button
-    x: 18
-    y: 477
+    x: 2034
+    y: 1261
     width: 13
     height: 13
     borderLeft: 4
@@ -40,74 +274,399 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Highlight
-    x: 20
-    y: 494
-    width: 17
+  - name: button_pressed
+    x: 2034
+    y: 1275
+    width: 503
+    height: 202
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 4
+    paddingTop: 27
+    paddingBottom: 27
+  - name: coin_back
+    x: 2790
+    y: 1468
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_front
+    x: 3905
+    y: 1597
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_side 1
+    x: 2603
+    y: 1572
+    width: 101
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_side 2
+    x: 1777
+    y: 1526
+    width: 16
+    height: 124
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 24
+    paddingTop: 2
+    paddingBottom: 2
+  - name: coin_side 3
+    x: 3905
+    y: 1726
+    width: 101
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Control - Background
+    x: 2683
+    y: 1063
+    width: 92
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 20
+    paddingBottom: 21
+  - name: Control - Colored Button
+    x: 1521
+    y: 1482
+    width: 92
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 20
+    paddingBottom: 21
+  - name: Control - Colored Checkbox
+    x: 2705
+    y: 1601
+    width: 73
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 9
+    paddingTop: 9
+    paddingBottom: 10
+  - name: Control - Colored Horizontal Scroll Bar
+    x: 2425
+    y: 15
+    width: 92
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 15
+    paddingBottom: 8
+  - name: Control - Colored Popup List
+    x: 2611
+    y: 39
+    width: 86
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 6
+    paddingTop: 23
+    paddingBottom: 24
+  - name: Control - Colored Progress Bar
+    x: 2040
+    y: 127
+    width: 92
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 12
+    paddingBottom: 14
+  - name: Control - Colored Slider
+    x: 2603
+    y: 1502
+    width: 92
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 11
+    paddingBottom: 12
+  - name: Control - Colored Vertical Scroll Bar
+    x: 2919
+    y: 1504
+    width: 86
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Control - Simple Button
+    x: 4001
+    y: 3024
+    width: 92
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 20
+    paddingBottom: 21
+  - name: Control - Simple Checkbox
+    x: 1784
+    y: 342
+    width: 73
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 9
+    paddingTop: 9
+    paddingBottom: 10
+  - name: Control - Simple Horizontal Scroll Bar
+    x: 1795
+    y: 1995
+    width: 92
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 23
+    paddingBottom: 24
+  - name: Control - Simple Horizontal Slider
+    x: 3908
+    y: 3016
+    width: 92
+    height: 59
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 16
+    paddingBottom: 17
+  - name: Control - Simple Input Field
+    x: 2696
+    y: 1516
+    width: 92
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 18
+    paddingBottom: 19
+  - name: Control - Simple Popup List
+    x: 1888
+    y: 2001
+    width: 86
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 26
+    paddingBottom: 27
+  - name: Control - Simple Progress Bar
+    x: 2518
+    y: 18
+    width: 92
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 13
+    paddingBottom: 13
+  - name: Control - Simple Text Box
+    x: 2817
+    y: 7
+    width: 92
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 0
+  - name: Control - Simple Vertical Scroll Bar
+    x: 451
+    y: 38
+    width: 45
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 23
+    paddingTop: 10
+    paddingBottom: 0
+  - name: Control - Simple Vertical Slider
+    x: 4007
+    y: 1762
+    width: 59
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 16
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dark
+    x: 1521
+    y: 1205
+    width: 15
     height: 15
-    borderLeft: 3
-    borderRight: 3
-    borderTop: 3
-    borderBottom: 3
+    borderLeft: 4
+    borderRight: 4
+    borderTop: 4
+    borderBottom: 4
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Light
-    x: 1
-    y: 493
-    width: 18
-    height: 18
-    borderLeft: 2
-    borderRight: 2
-    borderTop: 2
-    borderBottom: 2
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: X
-    x: 32
-    y: 210
-    width: 22
-    height: 20
+  - name: Fantasy Atlas
+    x: 513
+    y: 127
+    width: 512
+    height: 511
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: gameover
+    x: 0
+    y: 76
+    width: 442
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 12
+    paddingTop: 43
+    paddingBottom: 41
+  - name: getready
+    x: 0
+    y: 31
+    width: 450
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 4
+    paddingTop: 43
+    paddingBottom: 41
+  - name: gold_medal
+    x: 2889
+    y: 1367
+    width: 98
+    height: 100
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
     paddingTop: 0
     paddingBottom: 0
-  - name: Honeycomb
-    x: 256
-    y: 256
-    width: 112
-    height: 88
-    borderLeft: 1
-    borderRight: 1
-    borderTop: 1
-    borderBottom: 1
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: NGUI
-    x: 257
-    y: 437
-    width: 255
-    height: 76
+  - name: hand
+    x: 2298
+    y: 520
+    width: 153
+    height: 252
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
     paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
+    paddingRight: 2
+    paddingTop: 4
     paddingBottom: 0
   - name: Header Font
-    x: 0
-    y: 0
+    x: 1539
+    y: 490
     width: 256
     height: 512
     borderLeft: 0
@@ -118,11 +677,778 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: Highlight
+    x: 474
+    y: 3
+    width: 17
+    height: 15
+    borderLeft: 3
+    borderRight: 3
+    borderTop: 3
+    borderBottom: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Honeycomb
+    x: 2704
+    y: 2
+    width: 112
+    height: 88
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: joystick
+    x: 2049
+    y: 1024
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: joystick1
+    x: 3905
+    y: 1855
+    width: 135
+    height: 135
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Light
+    x: 474
+    y: 19
+    width: 18
+    height: 18
+    borderLeft: 2
+    borderRight: 2
+    borderTop: 2
+    borderBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medal_substrate
+    x: 2603
+    y: 1701
+    width: 100
+    height: 100
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 14
+    paddingTop: 14
+    paddingBottom: 14
+  - name: menu
+    x: 2452
+    y: 540
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: menu_pressed
+    x: 2701
+    y: 438
+    width: 252
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 13
+    paddingBottom: 14
+  - name: new
+    x: 2300
+    y: 1148
+    width: 243
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 6
+    paddingTop: 7
+    paddingBottom: 1
+  - name: NGUI
+    x: 3649
+    y: 50
+    width: 255
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: Normal Font
-    x: 256
-    y: 0
+    x: 2447
+    y: 85
     width: 256
     height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ok
+    x: 2549
+    y: 915
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: ok_pressed
+    x: 2803
+    y: 813
+    width: 253
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Orc Armor (Diffuse)
+    x: 0
+    y: 121
+    width: 500
+    height: 504
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 9
+    paddingTop: 0
+    paddingBottom: 8
+  - name: Orc Armor (Maps)
+    x: 1282
+    y: 1651
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Orc Armor (Normal)
+    x: 0
+    y: 1139
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Orc Skin (Diffuse)
+    x: 3012
+    y: 1991
+    width: 1024
+    height: 1024
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Orc Skin (Normal)
+    x: 1987
+    y: 1991
+    width: 1024
+    height: 1024
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pause
+    x: 3457
+    y: 255
+    width: 194
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: pause_pressed
+    x: 1795
+    y: 2041
+    width: 191
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 5
+  - name: play
+    x: 3457
+    y: 127
+    width: 194
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: play_pressed
+    x: 3457
+    y: 4
+    width: 191
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 5
+  - name: progrees_bar
+    x: 1539
+    y: 416
+    width: 907
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: progrees_bar_green
+    x: 1539
+    y: 268
+    width: 907
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: progrees_bar_purple
+    x: 1539
+    y: 194
+    width: 907
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: progrees_bar_red
+    x: 1517
+    y: 52
+    width: 907
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: progrees_bar_vert
+    x: 3908
+    y: 3076
+    width: 78
+    height: 1020
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 3
+  - name: progrees_bar_vert1
+    x: 3987
+    y: 3076
+    width: 78
+    height: 1020
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 3
+  - name: progrees_bar1
+    x: 2425
+    y: 342
+    width: 907
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 3
+    paddingTop: 2
+    paddingBottom: 3
+  - name: rate
+    x: 2709
+    y: 589
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: rate_pressed
+    x: 3211
+    y: 477
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: Refractive Atlas - Bump
+    x: 0
+    y: 626
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Refractive Atlas - Masks
+    x: 1026
+    y: 126
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sand
+    x: 1024
+    y: 639
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SciFi Atlas
+    x: 513
+    y: 1140
+    width: 510
+    height: 510
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: score
+    x: 2961
+    y: 701
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: score_pressed
+    x: 2966
+    y: 589
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: share
+    x: 2704
+    y: 701
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: share_pressed
+    x: 2549
+    y: 813
+    width: 253
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 13
+    paddingBottom: 14
+  - name: silver_medal
+    x: 2796
+    y: 1267
+    width: 98
+    height: 99
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Space.tga
+    x: 1987
+    y: 3016
+    width: 1920
+    height: 1080
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: start
+    x: 2954
+    y: 477
+    width: 256
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 7
+  - name: start_pressed
+    x: 2447
+    y: 418
+    width: 253
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 13
+    paddingBottom: 14
+  - name: tap
+    x: 2544
+    y: 1246
+    width: 251
+    height: 120
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 6
+    paddingTop: 7
+    paddingBottom: 1
+  - name: tap1
+    x: 2300
+    y: 1027
+    width: 251
+    height: 120
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 1
+  - name: text_field
+    x: 1539
+    y: 347
+    width: 244
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 4
+    paddingBottom: 1
+  - name: thumb
+    x: 2704
+    y: 91
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: thumb1
+    x: 2298
+    y: 773
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: thumb2
+    x: 1796
+    y: 752
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: toggle
+    x: 2955
+    y: 91
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: toggle1
+    x: 2047
+    y: 501
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: toggle2
+    x: 2047
+    y: 752
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: toggle3
+    x: 3206
+    y: 91
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: toggle4
+    x: 1796
+    y: 501
+    width: 250
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 0
+  - name: window
+    x: 513
+    y: 891
+    width: 496
+    height: 248
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 3
+  - name: window1
+    x: 513
+    y: 642
+    width: 496
+    height: 248
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 3
+  - name: window2
+    x: 1024
+    y: 1152
+    width: 496
+    height: 498
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 9
+    paddingTop: 14
+    paddingBottom: 0
+  - name: window3
+    x: 2308
+    y: 1488
+    width: 232
+    height: 502
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 5
+    paddingBottom: 5
+  - name: Wooden Atlas
+    x: 0
+    y: 1652
+    width: 768
+    height: 511
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 256
+    paddingTop: 1
+    paddingBottom: 0
+  - name: X
+    x: 451
+    y: 17
+    width: 22
+    height: 20
     borderLeft: 0
     borderRight: 0
     borderTop: 0
